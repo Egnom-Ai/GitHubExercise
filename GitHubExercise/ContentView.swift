@@ -14,12 +14,19 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
 
-            Text("Version 1.0")
+            Text("Version 1.1")
                 .font(.largeTitle)
                 .fontWeight(.black)
+            
+            ZStack {
+                Rectangle()
+                Text("Yehhh !!")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+            }
         }
         .padding()
-        .foregroundStyle(.red)
+        .foregroundStyle(.mint)
     }
 }
 
