@@ -19,6 +19,7 @@ struct ContentView: View {
                 .fontWeight(.black)
             
             Circle()
+            Circle()
         }
         .padding()
         .foregroundStyle(.green)
